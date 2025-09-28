@@ -1,0 +1,31 @@
+.profile-pic {
+  width: 150px;       /* adjusts the width of the image */
+  height: 150px;      /* adjusts the height of the image */
+  border-radius: 50%; /* creates the circular radius*/
+  object-fit: cover;  /* ensures picture does not stretch */
+}
+
+.unbold {
+    font-weight: normal;
+  }
+
+.blog-img {
+  width: 200px;        /* resizes the width of the image */
+  height: auto;        /* keep proportions */
+  margin: 10px;        /* add spacing to the so text doesn’t stick to it */
+}
+
+
+.blogimg_left {
+  float: left;         /* floats image to the left */
+  width: 200px;        /* resizes the width of the image */
+  height: auto;        /* keep proportions */
+  margin: 10px;        /* add spacing to the so text doesn’t stick to it */
+}
+
+.postimg_right {
+  float: right;        /* floats image to the right */
+  width: 200px;        /* resizes the width of the image */
+  height: auto;        /* keep proportions */
+  margin: 10px;        /* add spacing to the so text doesn’t stick to it */
+} 
